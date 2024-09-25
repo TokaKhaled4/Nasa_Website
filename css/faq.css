@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Gantari", sans-serif;
+}
+
+header {
+    background-color: rgba(1, 18, 38, 1);
+    position: relative;
+    height: 71px;
+    border-bottom: 5px solid rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+    position: absolute;
+    left: 103px;
+}
+header nav a {
+    color: rgba(255, 255, 255, 1);;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+ 
+}
+.faq{
+    margin-right: 20px;
+}
+.about{
+    margin-right: 80px;
+   
+}
+.separator{
+   position: absolute;
+   bottom: 10px;
+}
+
+/* side bar//////////////////////////////////////////////// */
+
+.sidebar {
+    height: 89.8%;
+    width: 0px;
+    position: absolute;
+    top: 20;
+    left: 0;
+    background-color: rgba(1, 18, 38, 1);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    border-right: 4px solid rgba(255, 255, 255, 1);
+z-index: 1000;
+}
+
+.sidebar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    transition: 0.3s;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.sidebar a:hover {
+    background-color: rgba(109, 89, 122, 0.137);
+}
+
+.menu_icon {
+    cursor: pointer;
+margin-left: 30px;
+}
+hr {
+    border: 0;
+    border-top: 1.5px solid rgba(255, 255, 255, 1);
+    width: 300px;
+    margin-left: 23px;
+}
+.home{
+    padding-top: 90px;
+    /* padding-left: 250px; */
+}
+/* main section///////////////////////////////////////////////////////////////////////////// */
+.first_sec{
+    background: linear-gradient(118deg, #071B33 40.7%, #531D39 59.76%, #8B3B46 80.22%, #B9565A 98.82%);
+    height: 450vh;
+ 
+}
+.faq_title{
+    margin-top: 80px;
+margin-left: 450px;
+    font-weight: 800;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+
+}
+.line1{
+position: absolute;
+margin-top: 105px;
+left: 70px;
+}
+.line2{
+    position: absolute;
+    left: 1100px;
+    margin-top: 105px;
+}
+.ques{
+    height: 82px;
+    width: 1341px;
+    background-color: rgba(173, 99, 118, 0.4);
+    margin-left: 100px;
+    position: absolute;
+}
+.ques1{
+    margin-top: 250px;
+}
+.question{
+    margin-top: 17px;
+    margin-left: 34px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    font-size: 40px;
+
+}
+.arrow{
+    position: absolute;
+right: 40px;
+margin-top: 30px;
+}
+.ans{
+    margin-left: 100px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    position: absolute;
+    width: 1261px;
+
+}
+.ans1{
+    margin-top: 400px;
+}
+.ques2{
+    margin-top: 600px;
+}
+.ans2{
+    margin-top: 750px;
+}
+.ques3{
+    margin-top: 950px;
+}
+.ans3{
+    margin-top: 1100px;
+}
+.link{
+    color: rgba(255, 255, 255, 1);
+}
+.ques4{
+    margin-top: 1300px;
+}
+.ans4{
+    margin-top: 1450px;
+}
+.ques5{
+    margin-top: 1650px;
+}
+.ans5{
+    margin-top: 1800px;
+}
+.ques6{
+    margin-top: 2000px;
+}
+.ans6{
+    margin-top: 2150px;
+}
+.another_q{
+    margin-top: 2500px;
+    margin-left: 100px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    position: absolute;
+    width: 1272px;
+}
+/* text area */
+
+#sub{
+    margin-top: 3050px;
+    margin-left: 100px;
+    position: absolute;
+    cursor: pointer;
+    width: 188px;
+    height: 50px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    font-weight: 500; 
+    border-radius: 30px;
+    border: 4px solid rgba(255, 255, 255, 1);
+    background-color: rgba(173, 99, 118, 1);
+}
+#userQuestion{
+    margin-top: 2700px;
+    margin-left: 100px;  
+    position: absolute;
+    height: 265px;
+    width: 1342px;
+    border-radius: 40px;
+    background-color: rgba(173, 99, 118, 0.4);
+    border: none;
+    resize: none;
+    color:rgba(255, 255, 255, 1) ;
+    font-size: 36px;
+    padding-top: 100px;
+    padding-left: 30px;
+    font-weight: 500;
+
+}
+#userQuestion:focus {
+    outline: none;
+}
+#userQuestion::placeholder {
+    color:rgba(255, 255, 255, 1) ;
+    opacity: 70%;
+}
+.sep_line{
+    position: absolute;
+    margin-top: 2350px;
+    margin-left: 100px;
+}

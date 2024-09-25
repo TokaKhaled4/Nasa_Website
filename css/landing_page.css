@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Gantari", sans-serif;
+}
+
+header {
+    background-color: rgba(1, 18, 38, 1);
+    position: relative;
+    height: 71px;
+    border-bottom: 5px solid rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+    position: absolute;
+    left: 103px;
+}
+header nav a {
+    color: rgba(255, 255, 255, 1);;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+ 
+}
+.faq{
+    margin-right: 20px;
+}
+.about{
+    margin-right: 80px;
+   
+}
+.separator{
+   position: absolute;
+   bottom: 10px;
+}
+
+/* side bar//////////////////////////////////////////////// */
+
+.sidebar {
+    height: 89.8%;
+    width: 0px;
+    position: absolute;
+    top: 20;
+    left: 0;
+    background-color: rgba(1, 18, 38, 1);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    border-right: 4px solid rgba(255, 255, 255, 1);
+z-index: 1000;
+}
+
+.sidebar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    transition: 0.3s;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.sidebar a:hover {
+    background-color: rgba(109, 89, 122, 0.137);
+}
+
+.menu_icon {
+    cursor: pointer;
+margin-left: 30px;
+}
+hr {
+    border: 0;
+    border-top: 1.5px solid rgba(255, 255, 255, 1);
+    width: 300px;
+    margin-left: 23px;
+}
+.home{
+    padding-top: 90px;
+    /* padding-left: 250px; */
+}
+
+/* landing////////////////////////////////////////////////////// */
+
+.landing{
+    background: linear-gradient(118deg, #071B33 40.7%, #531D39 59.76%, #8B3B46 80.22%, #B9565A 98.82%);
+    height: 89.8vh;
+}
+.dipper1{
+    position: absolute;
+    margin-left: 900px;
+}
+.dipper2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 800px;
+}
+.stars{
+    position: absolute;
+}
+.welcome{
+    width: 600px;
+    height: 230px;
+    margin-top: 40px;
+    margin-left: 90px;
+    border-radius: 40px;
+    background-color: rgba(173, 99, 118, 0.4);
+    padding: 30px 25px 60px 25px;
+    position: absolute;
+}
+.wel_title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 500;
+    width: 200px;
+    margin-bottom: 22px;
+}
+.wel_p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 23px;
+    font-weight: 500;
+}
+.most{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 900; 
+    margin-left: 100px;
+    margin-top: 300px;
+    position: absolute;
+}
+.flame{
+    margin-left: 200px;
+    margin-top: 345px;
+    position: absolute;
+    width: 504px;
+    height: 200px;
+    border: 4px solid rgba(255, 255, 255, 1);
+    border-radius: 30px;
+   overflow: hidden;
+   z-index: 10;
+   cursor: pointer;
+   text-align: center;
+}
+.city{
+    margin-left: 800px;
+    margin-top: 345px;
+    position: absolute;
+    width: 504px;
+    height: 200px;
+    border: 4px solid rgba(255, 255, 255, 1);
+    border-radius: 30px;
+   overflow: hidden;
+   z-index: 10;
+   cursor: pointer;
+   text-align: center;
+}
+.img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 30px; 
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 29, 19, 0.4); 
+    border-radius: 30px;
+    z-index: 1; 
+}
+.story_title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    font-weight: 700; 
+    margin-top: 40px;
+}
+.story_p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 400; 
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 80px;
+}
+.more{
+cursor: pointer;
+width: 188px;
+height: 50px;
+color: rgba(255, 255, 255, 1);
+font-size: 22px;
+font-weight: 500; 
+border-radius: 30px;
+border: 4px solid rgba(255, 255, 255, 1);
+background-color: rgba(173, 99, 118, 1);
+position: absolute;
+margin-top: 560px;
+margin-left: 660px;
+
+}
+
