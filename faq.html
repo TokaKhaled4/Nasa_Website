@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/faq.css">
+</head>
+
+<body>
+    <header>
+        <img src="image/Menu.png" alt="image" class="menu_icon" onclick="toggleNav()">
+        <p class="logo">Clime-X</p>
+        <nav>
+            <a href="faq.html" class="faq">FAQs</a>
+            <img src="image/Vector 4.png" alt="image" class="separator">
+            <a href="about.html" class="about">About Us</a>
+        </nav>
+    </header>
+
+    <!-- side bar-->
+    <div id="mySidebar" class="sidebar">
+        <a href="stories.html">Stories
+            <img src="image/Storytelling.png" alt="image">
+        </a>
+        <hr>
+        <a href="three/explore.html">Explore
+            <img src="image/Globe.png" alt="image">
+        </a>
+        <hr>
+        <a href="scientific.html">Scientific Observations
+            <img src="image/Clipboard.png" alt="image">
+        </a>
+        <hr>
+        <a href="donation.html">Donate
+            <img src="image/Donate.png" alt="image">
+        </a>
+        <hr>
+        <a href="index.html">
+            <img src="image/Home.png" alt="image" class="home">
+        </a>
+
+    </div>
+
+
+    <!-- main section -->
+    <section class="first_sec">
+        <img src="image/Vector 22.png" alt="image" class="line1">
+        <p class="faq_title">
+            Frequently Asked Questions </p>
+        <img src="image/Vector 23.png" alt="image" class="line2">
+
+        <div class="ques1 ques">
+            <span class="question">What does your organization do?</span>
+           
+        </div>
+        <p class="ans1 ans">
+            We are a student led team hoping to change the world one mind at a time through impactful story-telling and
+            strong scientific proof to back it up.
+        </p>
+        <div class="ques2 ques">
+            <span class="question">Who are your target audience?</span>
+           
+        </div>
+        <p class="ans2 ans">
+            Anyone currently uninformed or unaware of the destruction caused to our environment through climate change.
+        </p>
+
+        <div class="ques3 ques">
+            <span class="question">What are your data sources?</span>
+           
+        </div>
+        <p class="ans3 ans">
+            Organizations such as NASA, the U.S. Greenhouse Gas Center, etc.. You can find the full report coupled with
+            citations on our <a href="scientific.html" class="link">Scientific Observations</a> page.
+        </p>
+
+        <div class="ques4 ques">
+            <span class="question">What do you aim to achieve?</span>
+           
+        </div>
+        <p class="ans4 ans">
+            We hope to help reduce greenhouse gas emissions in the world and hopefully slow down the catastrophic
+            changes affecting our environment.
+        </p>
+
+        <div class="ques5 ques">
+            <span class="question">What made you come up with this idea?</span>
+           
+        </div>
+        <p class="ans5 ans">
+            We saw a post for a NASA-lead competition on social media relating to our respective universities and majors
+            and thought to give the competition a chance. Things took off from there.
+        </p>
+
+        <div class="ques6 ques">
+            <span class="question">Do you think change is possible?</span>
+           
+        </div>
+        <p class="ans6 ans">
+            Yes. It’ll be a lot of hard work and it’ll take quite a bit of effort but we do believe that change can be
+            affected in this world. Hopefully very soon.
+        </p>
+
+        <img src="image/Vector 24 (1).png" alt="" class="sep_line">
+        <p class="another_q">Can’t find your question above? That’s no problem! You can send us any questions you want through this handy little text box! Why not give it a try?</p>
+
+        <!-- text area -->
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScgdd9k-o2n-8cQLMwkFzapYhK1LU2FjF6GWu9h1bA0-j5RCA/formResponse" method="POST" target="hidden_iframe">
+            <!-- <label for="userQuestion">Your Question:</label><br> -->
+            <textarea id="userQuestion" placeholder="Ask us anything!"  name="entry.1034748849" required></textarea>
+            <input type="submit" value="Submit" id="sub">
+        </form>
+    
+        <iframe name="hidden_iframe" style="display:none;"></iframe>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="js/faq.js"></script>
+</body>
+
+</html>
